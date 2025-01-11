@@ -1,0 +1,62 @@
+/* --amaranth-pink: #EA97B7ff;
+--melon: #FEAF94ff;
+--moonstone: #5D98A4ff;
+--black: #000000ff;
+--black-2: #000000ff */
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+}
+.container{
+    background: linear-gradient(135deg,#EA97B7ff,#5D98A4ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.content{
+    background-color: #7a4e86;
+    text-align: center;
+    padding: 2rem ;
+    border-radius: 10px;
+    max-width: 400px;
+    
+}
+.logo{
+    width:300px;
+    object-fit: contain;
+}
+h1{
+    color: rgb(38, 0, 38);
+    margin-bottom: 20px;
+
+}
+p{
+    color: #2f2f2f;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input[type="email"]{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
+button {
+    padding: 0.5rem;
+    background-color: #c47dd7;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s
+    ease-in-out;
+}
+button:hover{
+    background-color:#5D98A4ff ;
+}
